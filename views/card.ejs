@@ -1,0 +1,77 @@
+<% if(locals.content) { %>
+<div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+    <div class="card col-sm-8">
+      <div class="card-body d-flex flex-column align-items-center">
+        <div class="row mb-3" style="width: 100%">
+          <div class="col-sm-12 d-flex gap-5 justify-content-between">
+            <img
+              src="photos/<%= content.color %>.png"
+              alt="skin-type"
+              width="40"
+              height="40"
+              class="rounded-circle"
+            />
+            <h4><%= content.date %></h4>
+            <h4><%= content.time %></h4>
+          </div>
+        </div>
+        <div class="row" style="width: 90%">
+          <div class="col-sm-12 d-flex flex-column mb-3 align-items-start">
+            <h5><strong>UV Index: </strong><%= content.index %></h5>
+            <h5><strong>Info:</strong></h5>
+            <ul class="text-start" style="list-style-type: none">
+              <li><strong>UV Level: </strong><%= content.level %></li>
+              <li>
+                <strong>Time to Sunburn: </strong><%= Math.floor(content.ts)
+                %>
+              </li>
+              <li><strong>Tanning Ability: </strong><%= content.ta %></li>
+              <li><strong>Vitamin D Sun Time: </strong><%= content.vd %></li>
+              <li><strong>Protection Req.: </strong><%= content.protect %></li>
+              <li><strong>Recommendation: </strong><%= content.recommed %></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<% } else { %>
+<div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+    <div class="card col-sm-8">
+        <div class="card-body d-flex flex-column align-items-center">
+            <div class="row mb-3" style="width: 100%">
+                <div class="col-sm-12 d-flex gap-5 justify-content-between">
+                    <img
+                    src="photos/<%= users[num].color %>.png"
+                    alt="skin-type"
+                    width="40"
+                    height="40"
+                    class="rounded-circle"
+                    />
+                    <h4><%= users[num].date %></h4>
+                    <h4><%= users[num].time %></h4>
+                </div>
+            </div>
+            <div class="row" style="width: 90%">
+                <div class="col-sm-12 d-flex flex-column mb-3 align-items-start">
+                  <h5><strong>UV Index: </strong><%= users[num].index %></h5>
+                  <h5><strong>Info:</strong></h5>
+                  <ul class="text-start" style="list-style-type: none">
+                    <li><strong>UV Level: </strong><%= users[num].level %></li>
+                    <li>
+                      <strong>Time to Sunburn: </strong><%= Math.floor(users[num].ts)
+                      %>
+                    </li>
+                    <li><strong>Tanning Ability: </strong><%= users[num].ta %></li>
+                    <li><strong>Vitamin D Sun Time: </strong><%= users[num].vd %></li>
+                    <li><strong>Protection Req.: </strong><%= users[num].protect %></li>
+                    <li><strong>Recommendation: </strong><%= users[num].recommed %></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<% } %>

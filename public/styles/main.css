@@ -1,0 +1,91 @@
+.option-1 {
+  background-color: #f1d1b1;
+}
+
+.option-2 {
+  background-color: #e4b590;
+}
+
+.option-3 {
+  background-color: #cf9f7d;
+}
+
+.option-4 {
+  background-color: #b67851;
+}
+
+.option-5 {
+  background-color: #a15e2d;
+}
+
+.option-6 {
+  background-color: #513938;
+}
+
+.form-select-new {
+    --bs-form-select-bg-img: url('../photos/download.svg');
+    display: block;
+    width: 100%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-image: var(--bs-form-select-bg-img), var(--bs-form-select-bg-icon, none);
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Header */
+h1.display-4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Card Styles */
+.card {
+  border-radius: 0.75rem;
+}
+
+.card-body {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.card-body h5 {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.card img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.list-unstyled li {
+  font-size: 1rem;
+  color: #555;
+}
+
+.list-unstyled li strong {
+  color: #333;
+}

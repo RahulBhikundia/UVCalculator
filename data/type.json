@@ -1,0 +1,68 @@
+[
+  {
+    "tan": "Always burns, does not tan",
+    "factor": 2.5,
+    "level": {
+      "low": "15-20m",
+      "mod": "10-15m",
+      "high": "5-10m",
+      "vhigh": "2-8m",
+      "ext": "1-5m"
+    }
+  },
+  {
+    "tan": "Burns easily, tans poorly",
+    "factor": 3,
+    "level": {
+      "low": "20-30m",
+      "mod": "15-20m",
+      "high": "10-15m",
+      "vhigh": "5-10m",
+      "ext": "2-8m"
+    }
+  },
+  {
+    "tan": "Tans after initial burn",
+    "factor": 4,
+    "level": {
+      "low": "30-40m",
+      "mod": "20-30m",
+      "high": "15-20m",
+      "vhigh": "10-15m",
+      "ext": "5-10m"
+    }
+  },
+  {
+    "tan": "Burns minimally, tans easily",
+    "factor": 5,
+    "level": {
+      "low": "40-60m",
+      "mod": "30-40m",
+      "high": "20-30m",
+      "vhigh": "15-20m",
+      "ext": "10-15m"
+    }
+  },
+  {
+    "tan": "Rarely burns, tans darkly easily",
+    "factor": 8,
+    "level": {
+      "low": "60-80m",
+      "mod": "40-60m",
+      "high": "30-40m",
+      "vhigh": "20-3 0m",
+      "ext": "15-20m"
+    }
+  },
+  {
+    "tan": "Never burns, always tans darkly",
+    "factor": 15,
+    "level": {
+      "low": ">80m",
+      "mod": "60-80m",
+      "high": "40-60m",
+      "vhigh": "30-40m",
+      "ext": "20-30m"
+    }
+  }
+]

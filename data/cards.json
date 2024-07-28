@@ -1,0 +1,74 @@
+[
+  {
+    "index": 9.2952,
+    "level": "Very High",
+    "ts": 35.86080270820783,
+    "ta": "Burns minimally, tans easily",
+    "vd": "15-20m",
+    "date": "2024-07-29",
+    "time": "10:40",
+    "color": "4",
+    "protect": "Very High",
+    "recommed": "Apply sunscreen with SPF 30 or higher liberally and frequently. Seek shade whenever possible, wear long-sleeved shirts, wide-brimmed hats, and sunglasses. Using an umbrella is highly recommended to minimize sun exposure."
+  },
+  {
+    "index": 6.5487,
+    "level": "High",
+    "ts": 30.54041260097424,
+    "ta": "Burns easily, tans poorly",
+    "vd": "10-15m",
+    "date": "2024-07-31",
+    "time": "15:13",
+    "color": "2",
+    "protect": "High",
+    "recommed": "Apply sunscreen with SPF 30 or higher every two hours, and reapply after swimming or sweating. Wear a hat, sunglasses, and protective clothing. An umbrella can provide additional protection, especially if you are in direct sunlight for extended periods."
+  },
+  {
+    "index": 6.0698,
+    "level": "High",
+    "ts": 27.458345689588896,
+    "ta": "Always burns, does not tan",
+    "vd": "5-10m",
+    "date": "2024-07-30",
+    "time": "15:19",
+    "color": "1",
+    "protect": "High",
+    "recommed": "Apply sunscreen with SPF 30 or higher every two hours, and reapply after swimming or sweating. Wear a hat, sunglasses, and protective clothing. An umbrella can provide additional protection, especially if you are in direct sunlight for extended periods."
+  },
+  {
+    "index": 6.0698,
+    "level": "High",
+    "ts": 27.458345689588896,
+    "ta": "Always burns, does not tan",
+    "vd": "5-10m",
+    "date": "2024-07-30",
+    "time": "15:19",
+    "color": "1",
+    "protect": "High",
+    "recommed": "Apply sunscreen with SPF 30 or higher every two hours, and reapply after swimming or sweating. Wear a hat, sunglasses, and protective clothing. An umbrella can provide additional protection, especially if you are in direct sunlight for extended periods."
+  },
+  {
+    "index": 3.0398,
+    "level": "Moderate",
+    "ts": 87.72506963177402,
+    "ta": "Tans after initial burn",
+    "vd": "20-30m",
+    "date": "2024-08-01",
+    "time": "16:22",
+    "color": "3",
+    "protect": "Moderate",
+    "recommed": "Use sunscreen with at least SPF 30. Seek shade during midday hours (10 a.m. to 4 p.m.), wear protective clothing, and consider using an umbrella if you're going to be outside for long periods."
+  },
+  {
+    "index": 11.1523,
+    "level": "Extreme",
+    "ts": 47.822721172613115,
+    "ta": "Rarely burns, tans darkly easily",
+    "vd": "15-20m",
+    "date": "2024-08-02",
+    "time": "13:23",
+    "color": "5",
+    "protect": "Extreme",
+    "recommed": "Avoid being outside during peak hours (10 a.m. to 4 p.m.). If you must be outside, apply sunscreen with SPF 30 or higher generously and frequently, wear protective clothing, a wide-brimmed hat, and sunglasses. Using an umbrella is essential to protect yourself from the intense UV radiation."
+  }
+]

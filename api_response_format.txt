@@ -1,0 +1,12 @@
+{ 
+  result: {
+    uv: 10.0941,
+    uv_time: '2024-07-28T05:27:00.000Z',
+    uv_max: 12.0387,
+    uv_max_time: '2024-07-28T06:59:16.425Z',
+    ozone: 291.4,
+    ozone_time: '2023-04-12T15:04:31.773Z',
+    safe_exposure_time: { st1: 17, st2: 20, st3: 26, st4: 33, st5: 53, st6: 99 },
+    sun_info: { sun_times: [Object], sun_position: [Object] }
+  }
+}

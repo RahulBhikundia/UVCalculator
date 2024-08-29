@@ -40,7 +40,6 @@ This project is a UV calculator web application. It utilizes a combination of No
 
 For any questions or issues related to this project, please contact:
 
-* **Email:** [your-email-address@example.com](mailto:your-email-address@example.com)
-* **Website:** [your-website-url](https://your-website-url)
+* **Email:** [rahulkumar6222@gmail.com](mailto:rahulkumar6222@gmail.com)
 
 Please feel free to contribute to this project by submitting bug reports, feature requests, or code improvements through GitHub. 

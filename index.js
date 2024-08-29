@@ -5,6 +5,7 @@ import info from "./info.js";
 import { loadData, saveData } from "./cards.js";
 
 const app = express();
+
 const port = 3000;
 const API_URL = "https://api.openuv.io/api/v1/uv?";
 
@@ -56,7 +57,7 @@ app.post("/submit", async (req, res) => {
 
 app.get("/history", (req, res) => {
   const data = loadData().map((user, pos) => ({ ...user, pos }));
-  res.render("history.ejs", { currentPage: "history", users: data});
+  res.render("history.ejs", { currentPage: "history", users: data });
 });
 
 app.get("/:number", (req, res) => {
